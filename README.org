@@ -1,0 +1,32 @@
+#+TITLE: ZipMeet
+#+SUBTITLE: COSC 484 Group Project
+* Welcome to the GitHub Repo!
+This is the source for ZipMeet, a revolutionary new dating app.
+* Setup and Installation
+** Firebase
+To host on firebase, this project requires the Firebase CLI tools. To install
+this, run ~npm install -g firebase-tools~. To log in, use ~firebase login~
+and follow the instructions. 
+** Node
+People who want to run and test these apps will use these commands.
+There are around 3 main node projects that make up this application.
+- The frontend, in the ~frontend~ directory
+- The backend, in the ~backend~ directory
+- the cloud functions, in the ~functions~ directory
+To get the tools to build and run your applications, run ~npm install~ in each
+directory. If you are a POSIX user, ~setup.sh~ does this for you. If you are a
+Windowscel, read and then run the commands from the command line. 
+* Building
+If you are building this project,
+these are the commands you need to follow to compile the page to a working
+state.
+** Building the Frontend
+Run ~cd frontend && npm run build~. This will build the react portion of the
+project for deployment. 
+** Building the Backend
+This needs more work to be set up.
+* Deployment
+Deployment of the project will require Firebase CLI tools. 
+To test Firebase using the emulator, use the command
+~firebase emulators:start~. To deploy to Firebase, use the commands in
+~build.sh~. 

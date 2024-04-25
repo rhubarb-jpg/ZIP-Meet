@@ -1,0 +1,22 @@
+<Form.Group>
+                        <Form.Label>Username</Form.Label>
+                        <Form.Control type="string" placeholder=""></Form.Control>
+                      </Form.Group>
+                      <Form.Group>
+                        <Form.Label>First Name</Form.Label>
+                        <Form.Control type="string" placeholder=""></Form.Control>
+                      </Form.Group>
+                      <Form.Group>
+                        <Form.Label>Last Name</Form.Label>
+                        <Form.Control type="string" placeholder=""></Form.Control>
+                      </Form.Group>
+<Form.Group>
+                        <Form.Label>Date Of Birth</Form.Label>
+                        <Form.Control type="string" placeholder=""></Form.Control>
+                      </Form.Group>                      
+
+
+                      <Form.Group>
+                        <Form.Label>Verify Password</Form.Label>
+                        <Form.Control type="string" placeholder=""></Form.Control>
+                      </Form.Group>

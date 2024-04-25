@@ -1,0 +1,291 @@
+@import "~bootstrap/scss/bootstrap";
+
+.nav-con {
+  color: white;
+  font-size: 2rem;
+}
+
+/*  CREATE ACCOUNT & Login*/
+.nav-login {
+  display: inline-flexbox;
+  width: 100%;
+  justify-content: center;
+}
+.nav-item {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 30%;
+  text-align: center;
+}
+
+.button-container {
+  padding-top: 2rem;
+  padding-bottom: 7rem;
+  text-align: center;
+}
+.create-account-form {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  div {
+    padding-top: 1rem;
+  }
+}
+.login-form {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  div {
+    padding-top: 2rem;
+  }
+}
+.create-account-card {
+  width: 70%;
+  padding-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ca-main-container {
+  margin-top: 7%;
+}
+.modal-img {
+  margin: 0.5rem;
+  border-radius: 5%;
+  width: 300px;
+  height: 300px;
+  filter: brightness(60%);
+  cursor: pointer;
+}
+.modal-btn {
+  background-image: url(https://res.cloudinary.com/dd5ybai4s/image/upload/v1670035907/pets_wotlqd.avif);
+}
+
+.select-div {
+  div {
+    padding-top: 0;
+  }
+}
+
+/* CREATE ACCOUNT */
+
+/* MESSAGES */
+.main-chat-container {
+  display: flexbox;
+  justify-content: space-between;
+  width: 100%;
+  height: 85vh;
+  background-color: rgb(237, 221, 221);
+  padding: 1rem;
+  padding-left: 3rem;
+  max-width: 90%;
+  max-height: 100%;
+  margin-bottom: 5%;
+  border-radius: 3%;
+}
+
+.chat-stack {
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  max-height: 90%;
+  padding: 0.5rem;
+}
+
+.chat-list-component {
+  padding-top: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.75rem;
+  border-end-end-radius: 30px;
+  border-start-end-radius: 30px;
+  border-start-start-radius: 30px;
+  border-end-start-radius: 30px;
+  background-color: peru;
+  cursor: pointer;
+  margin: auto;
+  width: 90%;
+  font-size: 2rem;
+  @include transition(opacity, 0.25s ease-out);
+}
+.chats-list-container {
+  height: 100%;
+}
+.left-chats-container {
+  display: flexbox;
+  background-color: white;
+  height: 100%;
+  flex-direction: column;
+  padding: 10px;
+  max-width: 100%;
+  margin-top: 1%;
+  padding-bottom: 15px;
+  border-radius: 3%;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-width: 5px;
+}
+.chat-space-container {
+  display: flexbox;
+  background-color: white;
+  height: 100%;
+  flex-direction: column;
+  padding: 10px;
+  max-width: 100%;
+  margin-top: 0;
+  padding-bottom: 15px;
+  border-radius: 3%;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-width: 5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.chat-space-column {
+  background-color: transparent;
+  max-width: 60%;
+  border-radius: 3%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  height: 80vh;
+  margin: 0%;
+  max-height: 100%;
+}
+.chat-view-column {
+  background-color: transparent;
+  max-width: 25%;
+  padding: 0;
+  border: 0;
+  height: 80vh;
+  border-radius: 3%;
+  margin-left: 0;
+  max-height: 100%;
+}
+
+.user-chat {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+}
+.send-message-button {
+  width: 10%;
+  color: white;
+  font-size: 1.5rem;
+  padding-right: 1rem;
+}
+.message-input {
+  padding: 0;
+  margin-top: 1%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.message-form {
+  font-size: 1.5rem;
+}
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  background-color: transparent;
+  width: 100%;
+}
+.message-row {
+  max-width: 100%;
+  width: 100%;
+  padding: 0%;
+}
+.chat-feed {
+  scroll-behavior: smooth;
+  scrollbar-width: 0;
+  width: 100%;
+}
+.chat-list-pic {
+  vertical-align: middle;
+  width: 90px;
+  height: 60px;
+  border-radius: 50%;
+}
+.message-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.message {
+  background-color: blue;
+}
+/* MESSAGES */
+
+.root {
+  display: flexbox;
+  width: 100%;
+  height: 100%;
+}
+
+/*  SETTINGS  */
+
+.settings-card {
+  width: 90%;
+  padding-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-column {
+  display: inline-flexbox;
+  width: 100%;
+  justify-content: center;
+}
+body {
+  background: linear-gradient(45deg, rgb(212, 52, 81), rgb(219, 120, 228));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.change-password-form {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  div {
+    padding-top: 1rem;
+  }
+}
+.nav-settings {
+  width: 100%;
+}
+
+
+.deletebutton {
+  padding-top: 2rem;
+  padding-bottom: 7rem;
+  text-align: center;
+}
+
+.del-account-form {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  div {
+    padding-top: 1rem;
+  }
+}
+
+.change-pics-form {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  div {
+    padding-top: 1rem;
+  }  
+}
+
+.changepicsbutton {
+  padding-top: 2rem;
+  padding-bottom: 7rem;
+  text-align: center;
+}
+
